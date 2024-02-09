@@ -34,7 +34,12 @@ fluidPage(
 #server
         
 output$distPlot <- renderPlot({ 
-  ggplot( data = diamonds)+geom_point(mapping = aes(x = cara, y = pric, group=clar, color=clar))
+  ggplot( data = diamonds)+geom_point(mapping = aes(x = cara, y = pric, group=clar, color=clar))+
+    labs(
+    x = "Nombre de carat",
+    y = "Prix du diamant",
+    title = stringr::str_glue("Prix du diament en fonction du carat"),
+  )
   })
         
     
