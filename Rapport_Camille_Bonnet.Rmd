@@ -1,0 +1,85 @@
+---
+title: "Les dispositifs médicaux connectés : objets connectés, applications et logiciels"
+author: "Camille Bonnet"
+date: "2024-02-17"
+output: pdf_document
+---
+
+# Définitions
+
+Nous ne pouvons pas nier que le système de santé français est surchargé. Les délais pour prendre des rendez vous médicaux s’allongent et la qualité du suivi en est dégradée. Selon certains professionnels, la numérisation a soulagé la charge du système de santé. Elle a notamment permis d’améliorer la traçabilité des soins et la communication entre professionnels grâce à des outils comme le dossier médical partagé. Plus récemment, des applications numériques avec des allégations de « santé » ont été développées.
+En effet, en 2020, plus de **350 000 applications santé** étaient disponibles sur les App Store, Google Play Store, etc. contre seulement 100 000 en 2013 (*HAS, 2022*). On dénombre donc un très grand nombre d’offres, gratuites ou payantes, mais toutes n’ont pas la même fonction.
+Il est important de distinguer les objets et applications numériques non-médicaux qui ont un effet potentiel sur la santé mais sans finalité médicale déclarée, plutôt considéré comme « bien-être » et les dispositifs médicaux qui ont une finalité médicale.(*Armoiry, 2022*)
+Il existe notamment de nombreuses applications de suivi du cycle menstruel féminin comme Clue qui a été téléchargée plus de 50 millions de fois à ce jour, qui ne sont pas considérées comme des dispositifs médicaux. Cela doit bien être précisé dans les termes du contrat, comme ici « Clue ne remplace pas une consultation avec votre professionnel de la santé et l'utilisation des services Clue se fait à vos propres risques » (*Clue, 2023*). 
+Ici, je vais me concentrer sur les objets connectés, applications et logiciels considérés par l’ANSM (Agence Nationale de Santé et du Médicament) comme des dispositifs médicaux. 
+
+# Outils existants / cas d’applications
+
+Certains **défibrillateurs cardiaques implantables** indiqués en prévention de la mort subite possèdent un système permettant le suivi à distance des fonctions du défibrillateur. Le patient reçoit donc une notification si sa fréquence cardiaque est anormale. Les données transmises par le défibrillateur sont aussi envoyées au médecin par l’intermédiaire d’une interface connectée.(*Armoiry, 2022*)
+
+D’autre applications peuvent avoir des fonctions d’aide au diagnostic médical. Pour de nombreuses pathologies, comme c’est le cas en cancérologie, le pronostique dépend de la précocité du diagnostic. Les cancers cutanés, notamment, s’ils sont détectés à temps, sont assez bien traités. L’application **SkinScreener**, classée dispositif médical de classe 1 selon la *directive européenne 93/42/CEE*, réalise une **estimation du risque de mélanome grâce à un algorithme utilisant une intelligence artificielle**. Le principe est simple : l’utilisateur prend une photo avec son smartphone des grains de beauté suspects puis l’intelligence artificielle les analyse en se basant sur la méthode ABCD (A = asymétrie ; B = bord ; C = couleur ; D = diamètre). Bien sûr, cette application ne dispense pas de rendez vous régulier chez le dermatologue, mais elle permet d’obtenir rapidement une première estimation du risque de mélanome et un suivi de l’évolutivité.(*SkinScreener, *)
+
+D’autres logiciels qualifiés de dispositifs médicaux sont spécifiques aux services hospitaliers. On peut citer comme exemple les **logiciels permettant de collecter et de filtrer les alarmes provenant des différents appareils médicaux** (ventilateurs, moniteurs, pompes à infusions, unité d’hémofiltration…) en service de réanimation. Ils trient les alarmes en fonction de leur gravité et transmettent ensuite l’information aux consoles de surveillance via un serveur. (*Armoiry, 2022*)
+
+# Enjeux et règlementations
+
+Par rapport aux dispositifs médicaux classiques, les dispositifs médicaux connectés doivent respecter quelques règlementations supplémentaires. Ils doivent justifier du respect des formalités préalables à la mise en œuvre d’un **traitement de données à caractère personnel auprès de la CNIL** (Commission Nationale de l'Informatique et des Libertés) et avoir une **attestation d’hébergement de données de santé** par un hébergeur certifié ou agréé.
+
+De plus, les logiciels, applications et objet connectés vus précédemment collectent nos données de santé. La notion de donnée de santé est définie par le CNIL comme *« recouvr[ant] non seulement l’ensemble des données collectées et produites dans le cadre du parcours de soins mais aussi celles […], détenues par d’autres acteurs (développeurs d’application par exemple), constituent une information sur l’état de santé de la personne »*. Nous pouvons nous questionner à juste titre sur leur stockage et la protection du secret médical.
+
+Les exigences en matière de protection des données et de sécurité de l'information font partie des nouveaux enjeux de notre siècle. Le 27 avril 2016, le Parlement Européen a publié le **Règlement Général sur la Protection des Données (RGPD)**, un texte relatif à la protection des personnes physiques à l'égard du traitement des données à caractère personnel et à la libre circulation de ces données (*CNIL, 2016*). Le traitement de nos données de santé est aussi soumis à la **Loi Informatique et liberté** n°78-17 du 6 janvier 1978 et au **Code de la Santé Publique**.
+
+-   la **pseudonymisation** implique que l’ensemble des informations permettant d’identifier un individu (NIR, nom, prénom, adresse…) doit être remplacé par un code alphanumérique ne permettant pas le rattachement à son identité ;
+-   l’**authentification** permet de contrôler les accès et d’imputer les actions effectuées sur le système à une personne désignée. Pour les données de santé, une authentification forte est souvent exigée ;
+-   la **traçabilité** de l’ensemble des événements relatifs à la sécurité du système doit permettre de contrôler l’utilisation de données ;
+-   le **contrôle**  permet de s’assurer d’une utilisation des données conforme à la loi et au référentiel. Effectué à posteriori par le biais d’audits, il est notamment rendu possible par l’utilisation conjointe de la traçabilité et de l’authentification ;
+-   la **sensibilisation** et la **formation** des utilisateurs et des administrateurs. 
+
+C’est le **CNIL** qui est chargé de surveiller l’application de ces textes. (*SNDS*)
+
+D’autre référentiels s’ajoutent à ces règlements :
+
+-   la Politique Générale de Sécurité des Systèmes d’Information en Santé (PGSSI-S), 
+-   la Politique de Sécurité des Systèmes d’Information pour les ministères chargés des affaires sociales (PSSI MCAS), 
+-   le Référentiel Général de Sécurité (RGS).
+
+
+# Perspectives
+
+Les dispositifs médicaux connectés sont de plus en plus utilisés, notamment du fait de l’augmentation de leur nombre et de leur diversité grandissante. Ils sont aussi de mieux en mieux remboursés. 
+
+Grace aux **intelligences artificielles**, domaine de recherche en pleine expansion, la qualité des soins pourrait être grandement améliorée. Elles sont déjà utilisées pour réaliser des **opérations assistées, le suivi des patients à distance, les prothèses intelligentes, ou encore les traitements personnalisés** grâce au recoupement de données. (*Inserm, 2018 ; Ordre des Médecins, 2018*)
+
+
+# Bibliographie
+
+ARMOIRY Xavier, 2022. Les dispositifs médicaux connectés (DMC). Cours magistral. ISPB Faculté de pharmacie Lyon. 14 janvier 2022. 
+
+BOYER Kim, 2018. Qui est le propriétaire des données de ma santé ? The Conversation [en ligne]. 7 février 2018. [Consulté le 18 février 2024]. Disponible à l’adresse : http://theconversation.com/qui-est-le-proprietaire-des-donnees-de-ma-sante-89511
+
+CLUE, 2023. Clue: Terms of Service. [en ligne]. 6 décembre 2023. [Consulté le 11 février 2024]. Disponible à l’adresse : https://helloclue.com/terms
+
+CNIL, 2016. Le règlement général sur la protection des données - RGPD. [en ligne]. 24 mai 2016. [Consulté le 11 février 2024]. Disponible à l’adresse : https://www.cnil.fr/fr/reglement-europeen-protection-donnees
+
+CNIL, 2018. Qu’est-ce ce qu’une donnée de santé ? [en ligne]. 8 janvier 2018. [Consulté le 15 février 2024]. Disponible à l’adresse : https://www.cnil.fr/fr/quest-ce-ce-quune-donnee-de-sante
+
+HAS, 2006. Stratégie de diagnostic précoce du mélanome [en ligne]. octobre 2006. [Consulté le 15 février 2024]. Disponible à l’adresse : https://www.has-sante.fr/upload/docs/application/pdf/gmed._melanome_231106.pdf
+
+HAS, 2016. Référentiel de bonnes pratiques sur les applications et les objets connectés en santé (Mobile Health ou mHealth) [en ligne]. octobre 2016. [Consulté le 7 février 2024]. Disponible à l’adresse : https://www.has-sante.fr/upload/docs/application/pdf/2016-11/has_ref_apps_oc.pdf
+
+HAS, 2022. Santé mobile : des applications de qualité. Haute Autorité de Santé [en ligne]. 2 mars 2022. [Consulté le 7 février 2024]. Disponible à l’adresse : https://www.has-sante.fr/jcms/p_3106528/fr/sante-mobile-des-applications-de-qualite
+
+INSERM, 2018. Intelligence artificielle et santé · Inserm, La science pour la santé. Inserm [en ligne]. 6 juillet 2018. [Consulté le 18 février 2024]. Disponible à l’adresse : https://www.inserm.fr/dossier/intelligence-artificielle-et-sante/
+
+LE GUIDE, [sans date]. Un objet connecté pour quel usage ? [en ligne]. [Consulté le 7 février 2024]. Disponible à l’adresse : http://www.guide-sante-connectee.fr/un-objet-connecte-pour-quel-usage
+
+NAYAKARATHNA Ransi, COWLING Tara, MACDOUGALL Danielle et NEILSON Heather, 2022. Virtual Care Use in Primary Care or Specialty Care Settings. [en ligne]. août 2022. Vol. 2, n° 8, pp. 45. [Consulté le 15 février 2024]. Disponible à l’adresse : https://www.cadth.ca/sites/default/files/pdf/htis/2022/RC1444-Virtual-Care.pdf
+
+ORDRE DES MÉDECINS, 2018. Médecin et patient dans le monde des data, des algorithmes et de l’intelligence artificielle [en ligne]. janvier 2018. [Consulté le 17 février 2024]. Disponible à l’adresse : https://www.conseil-national.medecin.fr/sites/default/files/external-package/edition/od6gnt/cnomdata_algorithmes_ia_0.pdf
+
+SKINSCREENER, [sans date]. SkinScreener - Hautkrebsvorsorge leicht gemacht. skinscreener [en ligne]. [Consulté le 15 février 2024]. Disponible à l’adresse : https://skinscreener.com
+
+SNDS, [sans date]. Protection de la donnée | SNDS. [en ligne]. [Consulté le 17 février 2024]. Disponible à l’adresse : https://www.snds.gouv.fr/SNDS/Protection-de-la-donnee
+
+THIBERT Cécile, 2017. 7 applications mobile santé qui se sont fait remarquer. Le Figaro Santé [en ligne]. 1 février 2017. [Consulté le 7 février 2024]. Disponible à l’adresse : https://sante.lefigaro.fr/article/7-applications-mobile-sante-qui-se-sont-faites-remarquer
+
